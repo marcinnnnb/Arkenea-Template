@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Arkenea, App, development, HTML, CSS, JavaScript">
+    <meta name="description" content="Technical Cofounders for startups">
+    <meta name="author" content="Coded by Marcin B.">
+    <title>Arkenea</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main>
+    <header class="l--header">
+        <nav>
+            <img class="l--header--logo" src="/Files/Logo.png" alt="FrontImage">
+                <a href="#" class="toggle-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Carrers</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Get a Quote</a></li>
+            </ul>
+        </div>
+        </nav>
+    </header>
+
+    <section class="l-section-main">
+            <h1><strong>Technical Cofounders</br> to your mobile &</br> web startup</strong></h1>
+                <div class="infoAppOne">
+                    <h5> To build successful app, you need a smart</br>product strategy, engaging UX, killer designs,
+                    </br> and a talented mobile development team.</h5>
+                </div>
+                <div class="infoAppTwo">
+                    <p><strong>Good News</strong> - You've come to the right place</p>
+                </div>
+                <div class="l-main-form">
+                <form id="form" action="#">
+                        <input type="email" name="email" placeholder="*Your Email Address" id="email" onkeydown="formValidation()">
+                        <input type="submit" value="Request a Quote" class="btn">
+                        <span id="text"></span>
+                </form>
+                </div>
+    </section>
+</main>
+
+
+<!--Our Success Stories Section-->
+
+
+    <section class="features-container">
+        <div class="features">
+            <div class="l-features-text">
+                <h6><strong>Our success stories</strong></h6>
+            </div>
+            <div class="divider"></div>
+            <div class="cards">
+                <div class="card">
+                    <img src="/Files/column_image_1.png" alt="FirstColumnPhoto" loading>
+                    <h2>Canvsly features on TechCrunch<br>and winner of the Kiip Build Fund<br>2013 and Mom's Choice Awards.</h2>
+                    <p>Continue reading</p>
+                </div>
+                <div class="card">
+                    <img src="/Files/column_image_2.png" alt="SecondColumnPhoto">
+                    <h2>Sleep Easily downloaded over<br>400,000 times - generating<br>consistent revenues.</h2>
+                    <p>Continue reading</p>
+                </div>
+                <div class="card">
+                    <img src="/Files/column_image_3.png" alt="ThirdColumnPhoto">
+                    <h2>Canvsly features on TechCrunch<br>and winner of the Kiip Build Fund<br>2013 and Mom's Choice Awards.</h2>
+                    <p>Continue reading</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!--Swiper Section-->
+
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <h4><q>Arkenea thinks outside the box and offer solutions through the creative process of developing apps.<br>They care about their customers.</q></h4>
+                <h3><strong>Hypnotherapist and BEst Selling Author</strong></br>-Glenn Harrold</h3>
+            </div>
+            <div class="swiper-slide">
+                <h4><q>Arkenea thinks outside the box and offer solutions through the creative process of developing apps.<br>They care about their customers.</q></h4>
+                <h3><strong>Hypnotherapist and BEst Selling Author</strong></br>-Glenn Harrold</h3>
+            </div>
+            <div class="swiper-slide">
+                <h4><q>Arkenea thinks outside the box and offer solutions through the creative process of developing apps.<br>They care about their customers.</q></h4>
+                <h3><strong>Hypnotherapist and BEst Selling Author</strong></br>-Glenn Harrold</h3>
+            </div>
+        </div>
+
+        <!-- Add Pagination -->
+
+        <div class="swiper-pagination"></div>
+
+        <!-- Add Arrows -->
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+
+<!--Footer-->
+
+
+    <footer class="l-footer">
+        <div class="l-footer-text">
+            <h2>Tell us about your requirement</h2>
+        </div>
+        <div class="l-footer-form">
+            <h2>Contact Us</h2>
+                <form>
+                    <input type="text" name="name" placeholder="*Name" required>
+                    <input type="email" name="email" placeholder="*Your Email Address" required>
+                    <textarea type="text" name="message" placeholder="*Your Message" maxlength="200" required></textarea>
+                    <input type="submit" value="Send" class="btn2">
+                </form>
+        </div>
+        <div class="l-footer-address">
+            <h4>Address</h4>
+            <h3>Arkenea LLC 47 S 2nd St #152,</br> San Jose, CA 95113, USA.</h3>
+        </div>
+        <div class="l-footer-phone">
+                <h4>Phone</h4>
+                <h3>(428) 350-1761</h3>
+        </div>
+        <div class="l-footer-email">
+                <h4>Email</h4>
+                <h3>contact@arkenea.com</h3>
+        </div>
+        <div class="l-footer-copyright">
+            <div class="l-footer-copyrightLeft">
+                <h2>© 2015 arkenea. All rights reserved.</h2>
+            </div>
+            <div class="l-footer-copyrightRight">
+                <h2>Designer - Prashant Dwivedi | Made with <img src="/img/Heart_icon.png" alt=""> in INDIA</h2>
+            </div>
+        </div>
+    </footer>
+
+
+
+<!--JavaScript Section-->
+
+<script src="/app.js"></script>
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+
+
+</body>
+</html>
