@@ -8,4 +8,4 @@ Extra features added to this project:
 3. Swiper
 
 Website is mostly responsive. Looks ok for me. For sure, could be done better. It's something wrong with footer section. For mobile is not responsive and looks
-messy. I will correct it immediately. 
+messy. I will correct it soon! 
